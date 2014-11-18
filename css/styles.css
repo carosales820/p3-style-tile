@@ -1,3 +1,24 @@
+
+/*primary header*/
+h1 {
+	font-family: 'Chewy', cursive;
+	color: #AEAC77
+}
+
+p {
+	font-family: 'Rochester', cursive;
+	line-height: 1.5em;
+	color: #eee
+}
+
+/*links*/
+
+a:link,
+a:visited {
+	border-bottom: double black 2px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
 /* Set Your Own Margin & Padding */
 h2, h3, p {
 	margin: 0;
@@ -7,6 +28,7 @@ h2, h3, p {
 section {
 	margin: 20px 0;
 }
+
 
 .color-1,
 .color-2,
@@ -20,6 +42,38 @@ section {
 	height: 50px;
 	width: 50px;
 }
+
+/*color pallete*/
+.color-1 {
+	background: teal;
+}
+
+.color-2 {
+	background: cornflowerblue;
+
+}
+
+/*tecxrures*/
+
+.pattern-1 {
+	background-color: #851400;
+	background-image: url(background-color: #94000c;
+background-image: url(http://www.transparenttextures.com/patterns/basketball.png);
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */);
+}
+
+.pattern-2 {
+	background-image: url(../img/subtle_white_mini_waves.png);
+
+}
+
+
+
+
+
+
+
+
 
 
 /* Show Grid */
