@@ -1,34 +1,48 @@
 
 /*primary header*/
 h1 {
-font-family: 'Cardo:700', serif;
-color: #000;
-margin: 0em 0;
+	font-family: 'Cardo:700', serif;
+	color: #000;
+
 }
 
+h1, h2, h3 {
+	margin: 0em 0;
+}
 h2{
 font-family: 'Cardo:400', serif;
+color: #3E3E40;
 }
 
 h3{
 	font-family: 'Cardo', serif;
+	color: #002434;
 }
-p {
 
+em, p{
+	font-family: 'Cardo:italic', serif;
+}
+
+nav{
+	margin-bottom: 10px;
+	font-family: 'Cardo:400', serif; 
+	color: #000;
+	font-size: 20px;
 }
 
 /*links*/
+a{
+	text-decoration: none;
+	color: #002434;
+}
 
 a:link,
 a:visited {
-	border-bottom: double black 2px;
-	text-transform: uppercase;
 	text-decoration: none;
+	color: #3E3E40;
 }
 /* Set Your Own Margin & Padding */
-h2, h3, p {
-	margin: 0;
-}
+
 
 /* Layout for Style Tile*/
 section {
@@ -45,34 +59,40 @@ section {
 	border: 1px solid #000;
 	float: left;
 	margin: 0 10px;
-	height: 50px;
-	width: 50px;
+	height: 100px;
+	width: 100px;
 }
 
 /*color pallete*/
 .color-1 {
-	background: teal;
+	background: #000;
 }
 
 .color-2 {
-	background: cornflowerblue;
+	background: #3E3E40;
 
+}
+
+.color-3{
+	background: #002434;
 }
 
 /*tecxrures*/
 
 .pattern-1 {
-	background-color: #851400;
-	background-image: url(background-color: #94000c;
-background-image: url(http://www.transparenttextures.com/patterns/basketball.png);
+background-image: url(../img/black-bg.png);
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */);
 }
 
 .pattern-2 {
-	background-image: url(../img/subtle_white_mini_waves.png);
+	background-image: url(../img/grey-bg.png);
 
 }
 
+.pattern-3 {
+	background-image: url(../img/off-white-bg-bg.png);
+
+}
 
 
 
