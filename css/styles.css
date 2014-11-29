@@ -41,6 +41,13 @@ a:visited {
 	text-decoration: none;
 	color: #3E3E40;
 }
+
+a:hover{
+	color: white;
+	background: #3E3E40;
+	font-size: 25px;
+
+}
 /* Set Your Own Margin & Padding */
 
 
